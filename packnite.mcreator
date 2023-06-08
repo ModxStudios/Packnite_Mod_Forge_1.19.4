@@ -1,0 +1,352 @@
+{
+  "mod_elements": [
+    {
+      "name": "Packnite",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packnite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/packnite/item/PackniteItem.java",
+          "src/main/resources/assets/packnite/models/item/packnite.json"
+        ]
+      }
+    },
+    {
+      "name": "PackniteOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packnite_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/packnite/worldgen/configured_feature/packnite_ore.json",
+          "src/main/resources/assets/packnite/models/item/packnite_ore.json",
+          "src/main/resources/data/packnite/forge/biome_modifier/packnite_ore_biome_modifier.json",
+          "src/main/resources/assets/packnite/blockstates/packnite_ore.json",
+          "src/main/resources/assets/packnite/models/block/packnite_ore.json",
+          "src/main/java/net/mcreator/packnite/block/PackniteOreBlock.java",
+          "src/main/java/net/mcreator/packnite/world/features/ores/PackniteOreFeature.java",
+          "src/main/resources/data/packnite/worldgen/placed_feature/packnite_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "PackniteBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packnite_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/packnite/models/item/packnite_block.json",
+          "src/main/java/net/mcreator/packnite/block/PackniteBlockBlock.java",
+          "src/main/resources/assets/packnite/models/block/packnite_block.json",
+          "src/main/resources/assets/packnite/blockstates/packnite_block.json"
+        ]
+      }
+    },
+    {
+      "name": "PackniteOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packnite_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/packnite/recipes/packnite_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PackniteBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packnite_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/packnite/recipes/packnite_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PackniteOreSmelting",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packnite_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/packnite/recipes/packnite_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "PacknitePickaxe",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packnite_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/packnite/item/PacknitePickaxeItem.java",
+          "src/main/resources/assets/packnite/models/item/packnite_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "PackniteAxe",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packnite_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/packnite/models/item/packnite_axe.json",
+          "src/main/java/net/mcreator/packnite/item/PackniteAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PackniteSword",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packnite_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/packnite/models/item/packnite_sword.json",
+          "src/main/java/net/mcreator/packnite/item/PackniteSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PackniteShovel",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packnite_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/packnite/item/PackniteShovelItem.java",
+          "src/main/resources/assets/packnite/models/item/packnite_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "PackniteHoe",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packnite_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/packnite/models/item/packnite_hoe.json",
+          "src/main/java/net/mcreator/packnite/item/PackniteHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PacknitePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packnite_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/packnite/recipes/packnite_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PackniteAxeRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packnite_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/packnite/recipes/packnite_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PackniteSwordRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packnite_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/packnite/recipes/packnite_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PackniteShovelRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packnite_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/packnite/recipes/packnite_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PackniteHoeRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packnite_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/packnite/recipes/packnite_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PackniteArmor",
+      "type": "armor",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packnite_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/packnite/item/PackniteArmorItem.java",
+          "src/main/resources/assets/packnite/models/item/packnite_armor_boots.json",
+          "src/main/resources/assets/packnite/models/item/packnite_armor_helmet.json",
+          "src/main/resources/assets/packnite/models/item/packnite_armor_chestplate.json",
+          "src/main/resources/assets/packnite/models/item/packnite_armor_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "PackniteArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packnite_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/packnite/recipes/packnite_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PackniteArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packnite_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/packnite/recipes/packnite_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PackniteArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packnite_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/packnite/recipes/packnite_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PackniteArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packnite_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/packnite/recipes/packnite_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Packniteingot",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "packniteingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/packnite/item/PackniteingotItem.java",
+          "src/main/resources/assets/packnite/models/item/packniteingot.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.packnite.packnite_armor_boots": "Packnite Boots",
+      "item.packnite.packnite_armor_chestplate": "Packnite Chestplate",
+      "block.packnite.packnite_block": "Block of Packnite",
+      "item.packnite.packnite_sword": "Packnite Sword",
+      "item.packnite.packnite_armor_helmet": "Packnite Helmet",
+      "item.packnite.packnite": "Packnite",
+      "item.packnite.packnite_axe": "Packnite Axe",
+      "item.packnite.packnite_shovel": "Packnite Shovel",
+      "block.packnite.packnite_ore": "Packnite Ore",
+      "item.packnite.packniteingot": "Packniteingot",
+      "item.packnite.packnite_pickaxe": "Packnite Pickaxe",
+      "item.packnite.packnite_hoe": "Packnite Hoe",
+      "item.packnite.packnite_armor_leggings": "Packnite Leggings"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "packnite",
+    "modName": "packnitemod",
+    "version": "1.0.0",
+    "author": "slimb, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.4",
+    "modElementsPackage": "net.mcreator.packnite",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300220712
+}
