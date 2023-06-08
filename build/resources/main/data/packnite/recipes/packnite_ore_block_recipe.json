@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "packnite:packnite"
+    },
+    "1": {
+      "item": "packnite:packnite"
+    },
+    "2": {
+      "item": "packnite:packnite"
+    },
+    "3": {
+      "item": "packnite:packnite"
+    },
+    "4": {
+      "item": "packnite:packnite"
+    },
+    "5": {
+      "item": "packnite:packnite"
+    },
+    "6": {
+      "item": "packnite:packnite"
+    },
+    "7": {
+      "item": "packnite:packnite"
+    },
+    "8": {
+      "item": "packnite:packnite"
+    }
+  },
+  "result": {
+    "item": "packnite:packnite_block",
+    "count": 1
+  }
+}

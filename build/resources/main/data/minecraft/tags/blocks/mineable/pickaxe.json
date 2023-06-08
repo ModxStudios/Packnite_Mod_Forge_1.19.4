@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "packnite:packnite_block",
+    "packnite:packnite_ore"
+  ]
+}
